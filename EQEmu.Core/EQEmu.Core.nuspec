@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KimLS.EQEmu.Core</id>
+    <version>1.0.0</version>
+    <title>EQEmu Core</title>
+    <authors>KimLS</authors>
+    <owners>KimLS</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/KimLS/EQEmuCS</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core libraries for dealing with various EverQuest and EQEmu files.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright KimLS 2017</copyright>
+    <tags>EQEmu EverQuest</tags>
+  </metadata>
+</package>
