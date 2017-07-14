@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQEmu", "EQEmu\EQEmu.csproj", "{8C962CC0-B4ED-4579-B4CE-32A8EA6AA99A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQEmu.Core", "EQEmu.Core\EQEmu.Core.csproj", "{A7E65BF3-813E-4DD0-94EA-659724BA85BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C68BF185-1DC4-4677-AC4A-8A35FA17A51F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C962CC0-B4ED-4579-B4CE-32A8EA6AA99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C962CC0-B4ED-4579-B4CE-32A8EA6AA99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C962CC0-B4ED-4579-B4CE-32A8EA6AA99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C962CC0-B4ED-4579-B4CE-32A8EA6AA99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E65BF3-813E-4DD0-94EA-659724BA85BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E65BF3-813E-4DD0-94EA-659724BA85BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E65BF3-813E-4DD0-94EA-659724BA85BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E65BF3-813E-4DD0-94EA-659724BA85BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68BF185-1DC4-4677-AC4A-8A35FA17A51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68BF185-1DC4-4677-AC4A-8A35FA17A51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68BF185-1DC4-4677-AC4A-8A35FA17A51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68BF185-1DC4-4677-AC4A-8A35FA17A51F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
